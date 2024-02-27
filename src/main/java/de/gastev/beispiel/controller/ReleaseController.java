@@ -41,6 +41,6 @@ public class ReleaseController {
         releaseService.deleteReleaseInfo(id);
     }
 
-    // Diğer controller metotları
+
 }
 

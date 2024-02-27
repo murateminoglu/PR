@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  db:
+    image: mysql:8
+    container_name: PR-db
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=1907Fb.1907.
+      - MYSQL_DATABASE=event
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql:/var/lib/mysql

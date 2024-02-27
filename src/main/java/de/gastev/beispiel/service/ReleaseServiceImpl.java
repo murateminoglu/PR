@@ -48,7 +48,7 @@ public class ReleaseServiceImpl implements ReleaseService {
 
     @Override
     public List<ReleaseInfo> getReleaseInfo(String giteaApiToken, String owner, String repo) throws IOException {
-        // Gerekli implementasyon
+        // Implementions
         return null;
     }
 

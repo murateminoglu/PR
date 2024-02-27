@@ -49,7 +49,7 @@ public class PullRequestServiceImpl implements PullRequestService{
 
     @Override
     public List<PullRequest> getPullRequests(String giteaApiToken, String owner, String repo, String startVersion, String endVersion) throws IOException {
-        // Gerekli implementasyon
+        // Implementions
         return null;
     }
 }
